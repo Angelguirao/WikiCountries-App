@@ -1,3 +1,6 @@
+
+![image](https://github.com/Angelguirao/WikiCountries-App/assets/44321245/518fd5f7-4baf-46db-b307-5a364eb636fb)
+
 # React WikiCountries: Your Global Encyclopedia 🌍
 
 Embark on a digital journey exploring nations and their unique characteristics, all thanks to the Countries API and the power of React.
