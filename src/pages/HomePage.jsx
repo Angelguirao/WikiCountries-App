@@ -22,7 +22,7 @@ console.log(countries)
 
         <>
         <h2>WikiCountries: Your Guide to the World</h2>
-        <div>
+        <div class="homepage-container">
             {countries.map((country)=> {
                 return (
                      <div key={country.name.common}>

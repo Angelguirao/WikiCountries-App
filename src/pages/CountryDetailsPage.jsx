@@ -26,7 +26,7 @@ useEffect(()=> {
     }
 
   return (
-    <div>
+    <div class="country-details">
       <h2>{countryData.name.common}</h2>
       <p>Capital: {countryData.capital}</p>
       <p>Area: {countryData.area} km²</p>

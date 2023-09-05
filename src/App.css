@@ -1,4 +1,113 @@
-#root {
-  margin: 0 auto;
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h2 {
   text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #333;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+/* HomePage Styles */
+.homepage-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.homepage-container > div {
+  flex-basis: calc(33.333% - 10px);
+  background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.homepage-container > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.homepage-container > div img {
+  width: 72px;
+  height: 54px;
+  margin-right: 10px;
+  border-radius: 3px;
+  transition: transform 0.3s;
+}
+
+.homepage-container > div:hover img {
+  transform: scale(1.1);
+}
+
+.homepage-container > div a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.1em;
+  transition: color 0.3s;
+}
+
+.homepage-container > div a:hover {
+  color: #007BFF;
+}
+
+/* CountryDetails Styles */
+.country-details {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.country-details p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.country-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.country-details li {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.country-details li:last-child {
+  margin-right: 0;
+}
+
+.country-details li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.country-details li:hover {
+  background-color: #0056b3;
+}
+
+.country-details li a:hover {
+  color: #f4f
 }
